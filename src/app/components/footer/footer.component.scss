@@ -6,7 +6,7 @@
 
 .footer-container {
   width: 1241px;
-  height: 514px;
+  height: 534px;
   background: $dark;
   border-radius: 50px 50px 0 0;
 }
@@ -51,6 +51,10 @@
   margin-left: 20px;
 }
 
+.footer-content {
+  display: flex;
+}
+
 .footer-content_info {
   margin: 66px 0 0 60px;
 }
@@ -87,3 +91,63 @@
   height: 46px;
 }
 
+.footer-content_form {
+  width: 634px;
+  height: 184px;
+  background: #292a32;
+  margin: 66px 0 0 154px;
+  border-radius: 14px;
+}
+
+input {
+  width: 285px;
+  height: 67px;
+  border: 1px solid #fff;
+  border-radius: 14px;
+  margin: 58px 0 0 40px;
+  padding: 30px;
+}
+
+input::placeholder {
+  padding: 22px 0 0 0;
+  color: #ffffff;
+}
+
+.footer-btn {
+  width: 249px;
+  height: 68px;
+  margin: 58px 0 0 20px;
+  background: $green;
+  border-radius: 14px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-line {
+  border: none;
+  height: 2px;
+  background-color: #fff;
+  margin: 50px 60px;
+}
+
+.footer-content_copyright {
+  display: flex;
+  margin-left: 60px;
+}
+
+.copyright {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.privacy {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-left: 40px;
+}

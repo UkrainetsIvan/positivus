@@ -169,15 +169,14 @@ input[type="text"] {
   outline: none;
   background: #ffffff;
   box-sizing: border-box;
+  padding: 0 0 145px 30px;
 }
 
-.message input::placeholder {
+input::placeholder {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #898989;
-  padding: -100px 0;
-
 }
 
 .form-btn {

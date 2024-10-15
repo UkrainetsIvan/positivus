@@ -4,11 +4,11 @@
       <img [src]="footerLogo" alt="logoWhite" class="logoWhite">
       <div class="footer-nav_links">
         <ul class="footer-nav_links-list">
-          <li class="footer-nav_links-item">About us</li>
-          <li class="footer-nav_links-item">Services</li>
-          <li class="footer-nav_links-item">Use Cases</li>
-          <li class="footer-nav_links-item">Pricing</li>
-          <li class="footer-nav_links-item">Blog</li>
+          <li class="footer-nav_links-item"><a>About us</a></li>
+          <li class="footer-nav_links-item"><a>Services</a></li>
+          <li class="footer-nav_links-item"><a>Use Cases</a></li>
+          <li class="footer-nav_links-item"><a>Pricing</a></li>
+          <li class="footer-nav_links-item"><a>Blog</a></li>
         </ul>
       </div>
       <div class="footer-nav_social">
@@ -26,11 +26,14 @@
         <p class="footer-content_info-addressPartII dp">{{ addressPartII }} </p>
       </div>
       <div class="footer-content_form">
-
+        <input type="text" placeholder="Email" class="footer-input dp">
+        <button class="footer-btn">Subscribe to news</button>
       </div>
     </div>
+    <hr class="footer-line">
     <div class="footer-content_copyright">
-
+      <p class="copyright">© 2023 Positivus. All Rights Reserved.</p>
+      <a class="privacy">Privacy Policy</a>
     </div>
   </div>
 </div>
