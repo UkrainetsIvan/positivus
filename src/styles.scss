@@ -1,0 +1,60 @@
+// GLOBAL STYLES FOR ALL
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+// variables colors
+$green: #b9ff66;
+$dark: #191a23;
+$grey: #f3f3f3;
+
+// reset all styles
+*, a, li, button {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    background: none;
+}
+
+// typography for desktop and mobile
+
+// Desktop
+.d1 {
+    font-size: 60px;
+}
+.d2 {
+    font-size: 40px;
+}
+.d3 {
+    font-size: 30px;
+}
+.d4 {
+    font-size: 20px;
+}
+.dp {
+    font-size: 18px;
+}
+
+// Mobile
+
+.m1 {
+    font-size: 43px;
+}
+.m2 {
+    font-size: 36px;
+}
+.m3 {
+    font-size: 26px;
+}
+.m4 {
+    font-size: 18px;
+}
+.mp {
+    font-size: 16px;
+}
+
+// width for div with class wrapper
+.wrapper {
+    width: 1440px;
+}

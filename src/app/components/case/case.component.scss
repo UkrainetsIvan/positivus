@@ -1,0 +1,199 @@
+@import '../../../styles.scss';
+// set style for wrapper
+.wrapper {
+  margin: 140px 0 0 320px;
+}
+// set style and appearence for top block case
+.case-top {
+  display: flex;
+}
+
+.case-top__title {
+  background: $green;
+  width: 265px;
+  padding: 0 7px 0 7px;
+}
+
+.case-top__desc {
+  width: 580px;
+  margin-left: 40px;
+}
+
+.case-item {
+  text-align: left;
+  display: flex;
+  margin-top: 94px;
+  background: $dark;
+  width: 1234px;
+  height: 326px;
+  border-radius: 45px;
+}
+// style for left element
+.case-item__left {
+  margin: 0 0 0 10px;
+}
+
+.case-item__left-desc {
+  width: 286px;
+  margin-left: 60px;
+
+}
+
+.description {
+  padding-top: 70px;
+  color: #ffffff;
+}
+
+.case-item__left-more {
+  display: flex;
+  margin: 20px 0 0 60px;
+}
+
+.more-description {
+  color: $green;
+}
+
+.arrow-more {
+  margin-left:15px;
+}
+
+.case-item__left-desc {
+  width: 330px;
+  margin-left: 60px;
+}
+
+.description {
+  color: #ffffff;
+}
+
+.case-item__left-more {
+  display: flex;
+  margin: 20px 0 0 60px;
+}
+
+.more-description {
+  color: $green;
+}
+
+.arrow-more {
+  margin: -3px 0 0 15px;
+}
+
+// style for left middle
+
+.case-item__middle-desc {
+  display: flex;
+  width: 1000px;
+  margin-left: 60px;
+}
+
+.description {
+  color: #ffffff;
+  padding: 70px 64px 0 0 ;
+}
+
+.case-item__middle-more {
+  display: flex;
+  padding: 50px 0 0 0;
+}
+
+.more-description {
+  color: $green;
+}
+
+.arrow-more {
+  margin-left:15px;
+}
+
+.case-item__middle-desc {
+  width: 350px;
+  margin-left: 60px;
+}
+
+.case-item__middle-more {
+  display: flex;
+  margin: 100px 0 0 -346px;
+}
+
+.more-description__middle {
+  margin: 50px 0 0 0;
+  color: $green;
+}
+
+.arrow-more__middle {
+  width: 27px;
+  height: 20px;
+  margin-left: 15px;
+}
+
+// style for right element
+
+.case-item__right {
+  width: 286px;
+  margin: -260px 0 0 824px;
+}
+
+.case-item__right-desc {
+  margin-left: 60px;
+}
+
+.description {
+  padding-top: 70px;
+  color: #ffffff;
+}
+
+.case-item__right-more {
+  display: flex;
+  margin: 20px 0 0 60px;
+}
+
+.more-description {
+  color: $green;
+}
+
+.arrow-more {
+  margin-left:15px;
+}
+
+.case-item__right-desc {
+  width: 350px;
+  margin-left: 60px;
+}
+
+.case-item__right-more {
+  display: flex;
+  margin: -30px 0 0 888px;
+}
+
+.more-description__right {
+  margin: 50px 0 0 0;
+  color: $green;
+}
+
+.arrow-more__right {
+  width: 27px;
+  height: 20px;
+  margin-left: 15px;
+}
+// style for the line between elements
+hr {
+  display: block;
+  width: 1px;
+  height: 186px;
+  background-color: #fff;
+  border: none;
+  transform: rotate(0deg);
+  margin: 70px 0 0 -15px;
+}
+
+.line {
+  display: block;
+  width: 1px;
+  height: 186px;
+  background-color: #fff;
+  border: none;
+  transform: rotate(0deg);
+  margin: -250px 0 0 800px;
+}
+
+

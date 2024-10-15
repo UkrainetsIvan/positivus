@@ -1,0 +1,46 @@
+@import '../../../styles.scss';
+
+.wrapper {
+  margin-left: 320px;
+}
+
+.proposal {
+  display: flex;
+  width: 1240px;
+  height: 347px;
+  background: $grey;
+  border-radius: 45px;
+}
+
+.proposal-content {
+  margin-left: 60px;
+}
+
+.proposal-content__title {
+  padding-top: 60px;
+}
+
+.proposal-content__desc {
+  margin-top: 26px;
+  width: 500px;
+}
+
+.proposal-content__btn {
+  margin-top: 26px;
+  width: 288px;
+  height: 68px;
+  background: $dark;
+  color: #fff;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.proposal-image {
+  margin: -20px 0 0 186px;
+}
+
+
+
+

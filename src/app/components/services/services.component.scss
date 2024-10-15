@@ -1,0 +1,339 @@
+@import '../../../styles.scss';
+// set styles for class wrapper
+.wrapper {
+  margin: 132px 255px 100px 320px;
+}
+// set styles for class services-top
+.services-top {
+  display: flex;
+}
+// set styles for title
+.services-top__title {
+  width: 178px;
+  background: $green;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+// set styles for description
+.services-top__desc {
+  width: 580px;
+  margin: 0 0 5px 40px;
+}
+// set styles for container which contains two cards
+.services-card__containerOne {
+  display: flex;
+  margin-top: 80px;
+}
+// set styles for all element and appearance for card search
+.services-card__search {
+  width: 600px;
+  height: 310px;
+  background: $grey;
+  border: 1px solid $dark;
+  border-radius: 45px;
+  box-shadow: 0 5px #000;
+}
+
+.services-search__top {
+  margin: 50px 0 0 50px;
+}
+
+.services-search__title {
+  width: 221px;
+  background: $green;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+
+.services-search__subtitle {
+  width: 197px;
+  background: $green;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.services-search__img {
+  margin: -70px 0 0 340px
+}
+
+.services-search__more {
+  display: flex;
+  margin: -10px 0 50px 50px;
+  cursor: pointer;
+}
+
+.arrow {
+  background: $dark;
+  margin-top: -15px;
+  padding: 16px 12px;
+  border-radius: 100%;
+}
+
+.services-search__more-text {
+  margin: 0 0 0 15px;
+}
+// set set styles for all element and appearance for card pay
+
+.services-card__pay {
+  width: 600px;
+  height: 310px;
+  background: $green;
+  border: 1px solid $dark;
+  border-radius: 45px;
+  margin-left: 40px;
+  box-shadow: 0 5px #000;
+}
+
+.services-pay__top {
+  margin: 50px 0 0 50px;
+}
+
+.services-pay__title {
+  width: 215px;
+  background: #fff;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+
+.services-pay__subtitle {
+  width: 178px;
+  background: #fff;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.services-pay__img {
+  margin: -70px 0 0 340px
+}
+
+.services-pay__more {
+  display: flex;
+  margin: -10px 0 50px 50px;
+  cursor: pointer;
+}
+
+.arrow {
+  background: $dark;
+  margin-top: -15px;
+  padding: 16px 12px;
+  border-radius: 100%;
+}
+
+.services-pay__more-text {
+  margin: 0 0 0 15px;
+}
+
+// set styles for container which contains two cards
+.services-card__containerTwo  {
+  display: flex;
+  margin-top: 40px;
+}
+
+// set set styles for all element and appearance for card social
+.services-card__social {
+  width: 600px;
+  height: 310px;
+  background: $dark;
+  border: 1px solid $dark;
+  border-radius: 45px;
+  box-shadow: 0 5px #000;
+}
+
+.services-social__top {
+  margin: 50px 0 0 50px;
+}
+
+.services-social__title {
+  width: 200px;
+  background: #fff;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+
+.services-social__subtitle {
+  width: 161px;
+  background: #fff;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+
+.services-social__img {
+  margin: -70px 0 0 340px
+}
+
+.services-social__more {
+  display: flex;
+  margin: -50px 0 50px 50px;
+  cursor: pointer;
+}
+
+.arrowBlack {
+  background: #fff;
+  margin-top: -15px;
+  padding: 16px 12px;
+  border-radius: 100%;
+}
+
+.services-social__more-text {
+  margin: 0 0 0 15px;
+  color: #fff;
+}
+
+// set set styles for all element and appearance for card email
+
+.services-card__email {
+  width: 600px;
+  height: 310px;
+  background: $grey;
+  border: 1px solid $dark;
+  border-radius: 45px;
+  margin: -310px 0 0 640px;
+  box-shadow: 0 5px #000;
+}
+
+.services-email__top {
+  margin: 50px 0 0 50px;
+}
+
+.services-email__title {
+  width: 90px;
+  background: $green;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+
+.services-email__subtitle {
+  width: 161px;
+  background: $green;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.services-email__img {
+  margin: -70px 0 0 340px
+}
+
+.services-email__more {
+  display: flex;
+  margin: -50px 0 50px 50px;
+  cursor: pointer;
+}
+
+.arrow {
+  background: $dark;
+  margin-top: -15px;
+  padding: 16px 12px;
+  border-radius: 100%;
+}
+
+.services-email__more-text {
+  margin: 0 0 0 15px;
+}
+
+// set styles for container which contains two cards
+.services-card__containerThree  {
+  display: flex;
+  margin-top: 40px;
+}
+
+// set set styles for all element and appearance for card content
+
+.services-card__content {
+  width: 600px;
+  height: 310px;
+  background: $green;
+  border: 1px solid $dark;
+  border-radius: 45px;
+  box-shadow: 0 5px #000;
+}
+
+.services-content__top {
+  margin: 50px 0 0 50px;
+}
+
+.services-content__title {
+  width: 133px;
+  background: #fff;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+
+.services-content__subtitle {
+  width: 137px;
+  background: #fff;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.services-content__img {
+  margin: -70px 0 0 340px
+}
+
+.services-content__more {
+  display: flex;
+  margin: -50px 0 50px 50px;
+  cursor: pointer;
+}
+
+.arrow {
+  background: $dark;
+  margin-top: -15px;
+  padding: 16px 12px;
+  border-radius: 100%;
+}
+
+.services-content__more-text {
+  margin: 0 0 0 15px;
+}
+
+// set set styles for all element and appearance for card analytics
+
+.services-card__analytics {
+  width: 600px;
+  height: 310px;
+  background: $dark;
+  border: 1px solid $dark;
+  border-radius: 45px;
+  margin-left: 40px;
+  box-shadow: 0 5px #000;
+}
+
+.services-analytics__top {
+  margin: 50px 0 0 50px;
+}
+
+.services-analytics__title {
+  width: 213px;
+  background: #fff;
+  padding: 0 7px 0 7px;
+  border-radius: 7px;
+}
+
+.services-analytics__subtitle {
+  width: 138px;
+  background: #fff;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.services-analytics__img {
+  margin: -70px 0 0 340px
+}
+
+.services-analytics__more {
+  display: flex;
+  margin: -50px 0 50px 50px;
+  cursor: pointer;
+}
+
+.arrowBlack {
+  background: #fff;
+  margin-top: -15px;
+  padding: 16px 12px;
+  border-radius: 100%;
+}
+
+.services-analytics__more-text {
+  margin: 0 0 0 15px;
+  color: #ffffff;
+}

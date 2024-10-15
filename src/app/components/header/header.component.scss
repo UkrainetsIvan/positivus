@@ -1,0 +1,37 @@
+@import '../../../styles.scss';
+// set style for class wrapper
+.wrapper {
+  display: flex;
+  margin: 60px 240px 70px 255px;
+}
+// set styles and appearance for navigation bar
+.logo {
+  margin-left: 60px
+}
+
+.nav {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 210px;
+}
+
+.about, .services, .cases, .pricing, .blog, .btn {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000;
+}
+
+.btn {
+  margin-top: -20px;
+    border: 1px solid $dark;
+    border-radius: 14px;
+    padding: 20px 35px;
+  cursor: pointer;
+}
+
+
+
+
+

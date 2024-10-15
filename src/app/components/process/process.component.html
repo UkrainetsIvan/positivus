@@ -1,0 +1,76 @@
+<div class="wrapper">
+  <div class="process">
+    <div class="process-top">
+      <h2 class="process-top__title d2">Our Working Process </h2>
+      <p class="process-top__desc dp">Step-by-Step Guide to Achieving Your Business Goals</p>
+    </div>
+    <div class="process-accordion">
+      <div class="process-accordion__consultation" (click)="toggleOpen(0)" [ngClass]="{'open': isOpen[0]}">
+        <h1 class="consultation-number">{{ one }}</h1>
+        <h2 class="consultation-title">{{ titleOne }}</h2>
+        <div class="consultation-state">
+          <p class="minus" *ngIf="isOpen[0]"></p>
+          <p class="plus" *ngIf="!isOpen[0]"></p>
+          <p class="plus" *ngIf="!isOpen[0]"></p>
+        </div>
+        <hr class="consultation-line" />
+        <p class="consultation-desc dp" *ngIf="isOpen[0]">{{ descriptionOne }}</p>
+      </div>
+      <div class="process-accordion__research" (click)="toggleOpen(1)" [ngClass]="{'open': isOpen[1]}">
+        <h1 class="research-number">{{ two }}</h1>
+        <h2 class="research-title">{{ titleTwo }}</h2>
+        <div class="research-state">
+          <p class="minus" *ngIf="isOpen[1]"></p>
+          <p class="plus" *ngIf="!isOpen[1]"></p>
+          <p class="plus" *ngIf="!isOpen[1]"></p>
+        </div>
+        <hr class="research-line" />
+        <p class="research-desc dp" *ngIf="isOpen[1]">{{ descriptionTwo }}</p>
+      </div>
+      <div class="process-accordion__implementation" (click)="toggleOpen(2)" [ngClass]="{'open': isOpen[2]}">
+        <h1 class="implementation-number">{{ three }}</h1>
+        <h2 class="implementation-title">{{ titleThree }}</h2>
+        <div class="implementation-state">
+          <p class="minus" *ngIf="isOpen[2]"></p>
+          <p class="plus" *ngIf="!isOpen[2]"></p>
+          <p class="plus" *ngIf="!isOpen[2]"></p>
+        </div>
+        <hr class="implementation-line" />
+        <p class="implementation-desc dp" *ngIf="isOpen[2]">{{ descriptionTwo }}</p>
+      </div>
+      <div class="process-accordion__monitoring" (click)="toggleOpen(3)" [ngClass]="{'open': isOpen[3]}">
+        <h1 class="monitoring-number">{{ four }}</h1>
+        <h2 class="monitoring-title">{{ titleFour }}</h2>
+        <div class="monitoring-state">
+          <p class="minus" *ngIf="isOpen[3]"></p>
+          <p class="plus" *ngIf="!isOpen[3]"></p>
+          <p class="plus" *ngIf="!isOpen[3]"></p>
+        </div>
+        <hr class="monitoring-line" />
+        <p class="monitoring-desc dp" *ngIf="isOpen[3]">{{ descriptionTwo }}</p>
+      </div>
+      <div class="process-accordion__reporting" (click)="toggleOpen(4)" [ngClass]="{'open': isOpen[4]}">
+        <h1 class="reporting-number">{{ five }}</h1>
+        <h2 class="reporting-title">{{ titleFive }}</h2>
+        <div class="reporting-state">
+          <p class="minus" *ngIf="isOpen[4]"></p>
+          <p class="plus" *ngIf="!isOpen[4]"></p>
+          <p class="plus" *ngIf="!isOpen[4]"></p>
+        </div>
+        <hr class="reporting-line" />
+        <p class="reporting-desc dp" *ngIf="isOpen[4]">{{ descriptionTwo }}</p>
+      </div>
+      <div class="process-accordion__continual" (click)="toggleOpen(5)" [ngClass]="{'open': isOpen[5]}">
+        <h1 class="continual-number">{{ six }}</h1>
+        <h2 class="continual-title">{{ titleSix }}</h2>
+        <div class="continual-state">
+          <p class="minus" *ngIf="isOpen[5]"></p>
+          <p class="plus" *ngIf="!isOpen[5]"></p>
+          <p class="plus" *ngIf="!isOpen[5]"></p>
+        </div>
+        <hr class="continual-line" />
+        <p class="continual-desc dp" *ngIf="isOpen[5]">{{ descriptionTwo }}</p>
+      </div>
+    </div>
+  </div>
+</div>

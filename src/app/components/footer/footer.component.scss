@@ -1,0 +1,89 @@
+@import '../../../styles.scss';
+
+.wrapper {
+  margin: 220px 0 0 350px;
+}
+
+.footer-container {
+  width: 1241px;
+  height: 514px;
+  background: $dark;
+  border-radius: 50px 50px 0 0;
+}
+
+.logoWhite {
+  margin: 55px 0 0 60px;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav_links {
+  margin: 58px 0 0 155px;
+}
+
+.footer-nav_links-list {
+  display: inline-flex;
+}
+
+.footer-nav_links-item {
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-nav_links-item:nth-child(2),
+.footer-nav_links-item:nth-child(3),
+.footer-nav_links-item:nth-child(4),
+.footer-nav_links-item:nth-child(5){
+  margin-left: 40px;
+}
+
+.footer-nav_social {
+  margin: 55px 0 0 155px;
+}
+
+.facebook, .twitter {
+  margin-left: 20px;
+}
+
+.footer-content_info {
+  margin: 66px 0 0 60px;
+}
+
+.footer-content_info-title {
+  width: 126px;
+  height: 26px;
+  background: $green;
+  padding: 0 7px;
+  border-radius: 7px;
+}
+
+.footer-content_info-email {
+  margin-top: 27px;
+  color: #ffffff;
+}
+
+.footer-content_info-phone {
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.footer-content_info-addressPartI {
+  margin-top: 20px;
+  color: #ffffff;
+  width: 332px;
+  height: 46px;
+}
+
+.footer-content_info-addressPartII {
+  margin-top: -25px;
+  color: #ffffff;
+  width: 332px;
+  height: 46px;
+}
+

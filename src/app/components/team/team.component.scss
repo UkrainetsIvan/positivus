@@ -1,0 +1,114 @@
+@import '../../../styles.scss';
+// set styles for wrapper
+.wrapper {
+  margin: 140px 0 0 350px;
+}
+// set style for top member list
+.team-top {
+  display: flex;
+}
+
+.team-top__title {
+  width: 115px;
+  padding: 0 7px 0 7px;
+  background: $green;
+  border-radius: 7px
+}
+
+.team-top__desc {
+  width: 473px;
+  margin: 5px 0 0 40px;
+}
+// set styles for members list
+.members {
+  margin-top: 80px;
+}
+
+.member {
+  width: 387px;
+  height: 331px;
+  background: #fff;
+  border: 1px solid $dark;
+  border-radius: 45px;
+  box-shadow: 0 5px #000000;
+}
+
+.member:nth-child(2) {
+  margin: -331px 0 0 427px;
+}
+
+.member:nth-child(3) {
+  margin: -331px 0 0 854px;
+}
+
+.member:nth-child(4) {
+  margin: 40px 0 0 0;
+}
+
+.member:nth-child(5) {
+  margin: -331px 0 0 427px;
+}
+
+.member:nth-child(6) {
+  margin: -331px 0 0 854px;
+}
+
+.member-logo {
+  margin: -34px 0 0 35px;
+}
+
+.member-name {
+  margin: -49px 0 0 160px;
+}
+
+.member-profession {
+  margin: 1px 0 0 160px;
+}
+
+.member-link {
+  width: 34px;
+  height: 34px;
+  margin: 40px 0 0 318px;
+  cursor: pointer;
+}
+
+.member-link > a {
+  background: #000000;
+  color: $green;
+  text-align: center;
+  padding: 6px 10px;
+  border-radius: 100%;
+}
+
+.member-line {
+  display: block;
+  width: 317px;
+  height: 1px;
+  background-color: #000;
+  border: none;
+  margin: 28px 35px 0 35px;
+}
+
+.member-about {
+  width: 350px;
+  height: 69px;
+  text-align: left;
+  padding: 28px 35px;
+}
+
+.member-button {
+  margin: 40px 0 0 971px;
+}
+
+.members-btn {
+  width: 269px;
+  height: 68px;
+  background: $dark;
+  border-radius: 14px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+}
+

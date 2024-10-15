@@ -1,0 +1,62 @@
+<div class="wrapper">
+    <div class="title-section">
+      <h2 class="title d2">Testimonials</h2>
+      <p class="desc dp">Meet the skilled and experienced team behind our successful digital marketing strategies</p>
+    </div>
+  <div class="slider-section">
+    <div class="slider-section_slides">
+      <div class="slider-section_slides-slide"
+           *ngFor="let slide of visibleSlides; let i = index"
+           [class.active]="i === currentSlideIndex">
+        <img [src]="slide.image" alt="" class="slider-image">
+        <p class="slider-desc dp">"We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."</p>
+        <h4 class="slider-name d4">{{ slide.name }}</h4>
+        <p class="slider-proffesion dp">{{ slide.proffession }}</p>
+      </div>
+
+      <div class="slider-section_slides-slide"
+           *ngFor="let slide of visibleSlides; let i = index"
+           [class.active]="i === currentSlideIndex">
+        <img [src]="slide.image" alt="" class="slider-image">
+        <p class="slider-desc dp">{{ slide.description }}</p>
+        <h4 class="slider-name d4">{{ slide.name }}</h4>
+        <p class="slider-proffesion dp">{{ slide.proffession }}</p>
+      </div>
+
+      <div class="slider-section_slides-slide"
+           *ngFor="let slide of slides; let i = index"
+           [class.active]="i === currentSlideIndex">
+        <img [src]="slide.image" alt="" class="slider-image">
+        <p class="slider-desc dp">{{ slide.description }}</p>
+        <h4 class="slider-name d4">{{ slide.name }}</h4>
+        <p class="slider-proffesion dp">{{ slide.proffession }}</p>
+      </div>
+
+      <div class="slider-section_slides-slide"
+           *ngFor="let slide of slides; let i = index"
+           [class.active]="i === currentSlideIndex">
+        <img [src]="slide.image" alt="" class="slider-image">
+        <p class="slider-desc dp">{{ slide.description }}</p>
+        <h4 class="slider-name d4">{{ slide.name }}</h4>
+        <p class="slider-proffesion dp">{{ slide.proffession }}</p>
+      </div>
+
+      <div class="slider-section_slides-slide"
+           *ngFor="let slide of slides; let i = index"
+           [class.active]="i === currentSlideIndex">
+        <img [src]="slide.image" alt="" class="slider-image">
+        <p class="slider-desc dp">{{ slide.description }}</p>
+        <h4 class="slider-name d4">{{ slide.name }}</h4>
+        <p class="slider-proffesion dp">{{ slide.proffession }}</p>
+      </div>
+    </div>
+    <div class="slider-section_nav">
+      <img [src]="arrowLeft" alt="Previous" class="arrowLeft" (click)="previousSlide()">
+      <img *ngFor="let star of stars; let i = index"
+           [src]="i === currentSlideIndex ? greenStar : whiteStar"
+           alt="" class="star">
+      <img [src]="arrowRight" alt="Next" class="arrowRight" (click)="nextSlide()">
+    </div>
+  </div>
+</div>
+
