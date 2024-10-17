@@ -1,5 +1,4 @@
 @import '../../../styles.scss';
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 .wrapper {
   margin: 140px 0 0 350px;
@@ -79,7 +78,6 @@
 
 .name label {
   margin-top: -5px;
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -106,7 +104,6 @@ input[type="text"] {
 }
 
 .name input::placeholder {
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 18px;
   padding: 18px 0 18px 0;
@@ -120,7 +117,6 @@ input[type="text"] {
 
 .email label {
   margin-top: -5px;
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -136,7 +132,6 @@ input[type="text"] {
 }
 
 .email input::placeholder {
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -151,7 +146,6 @@ input[type="text"] {
 
 .message label {
   margin-top: -5px;
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
@@ -160,7 +154,6 @@ input[type="text"] {
 .message input {
   width: 556px;
   height: 190px;
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #000;
@@ -173,7 +166,6 @@ input[type="text"] {
 }
 
 input::placeholder {
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #898989;
@@ -186,7 +178,6 @@ input::placeholder {
   background: $dark;
   padding: 20px 207.5px;
   border-radius: 14px;
-  font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
