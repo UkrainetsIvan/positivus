@@ -17,11 +17,18 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/positivus",
+            "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
               "zone.js"
+            ],
+            "budgets": [
+              {
+                "type": "initial",
+                "maximumWarning": "900kb",
+                "maximumError": "700kb"
+              }
             ],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
